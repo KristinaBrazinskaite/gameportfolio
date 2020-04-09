@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .container img {
+          height: 100%;
+          width: 100%; 
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .container .content {
+          position: absolute;
+          bottom: 500px;
+          background: rgb(0, 0, 0);
+          background: rgba(0, 0, 0, 0.5);
+          color: #f1f1f1;
+          width: 100%;
+          padding: 50px;
+          text-align: center;
+          font-family:Arial;
+        }
+
+        .container .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #f1f1f1;
+          color: black;
+          font-size: 25px;
+          padding: 16px 30px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;
+          font-family:Arial;
+        }
+
+        .container .btn:hover {
+          background-color: black;
+          color: white;
+        }
+        </style>
+    
+</head>
+<body>
+    <script src="app.js"></script>
+
+    <div class="container">
+        <img src="jungleRumbleBackground.JPG">
+        <div class="content">
+            <h1>Welcome to Jungle Rumble!</h1>
+        </div>
+        <button class="btn" onclick="function1();function2();function3();function4();function5();
+        starting();startingLake();
+        shamansLair();shamansLairOutfit();lionCage();lionGates();lionName();
+        hiddenCave();inCaveMain();inCave1();inCave2();inCave3();onHill();inVillage();">Click me to start the game!</button>
+
+    </div>
+</body>
+</html>
